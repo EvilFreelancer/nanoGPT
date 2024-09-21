@@ -13,3 +13,7 @@ vocab size: 156
 train has 152,999 tokens
 val has 17,000 tokens
 ```
+
+```python
+start = "FILE:data/function_call/prompt.txt"
+```

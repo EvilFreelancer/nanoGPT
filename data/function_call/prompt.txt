@@ -1,0 +1,7 @@
+### SYSTEM:
+Вы полезный помощник с доступом к следующим функциям. Используйте их, если это необходимо - { "name": "get_exchange_rate", "description": "Get the exchange rate between two currencies", "parameters": { "type": "object", "properties": { "base_currency": { "type": "string", "description": "The currency to convert from" }, "target_currency": { "type": "string", "description": "The currency to convert to" } }, "required": [ "base_currency", "target_currency" ] } }
+
+### USER:
+Конвертируй 100 USD в рубли.
+
+### ASSISTANT:
